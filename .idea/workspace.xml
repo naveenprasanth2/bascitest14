@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/flyweight/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/flyweight/AnimalEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/flyweight/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/flyweight/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/flyweight/CommonProps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/flyweight/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added flyweight design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/reflection/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/reflection/ReflectionEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/reflection/Repeat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalEval">
+  <component name="RunManager" selected="Application.ReflectionEval">
     <configuration name="AnimalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.tesco.flyweight.AnimalEval" />
       <module name="bascitest14" />
@@ -111,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReflectionEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.reflection.ReflectionEval" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tesco.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.regex.Test" />
       <module name="bascitest14" />
@@ -126,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionEval" />
         <item itemvalue="Application.AnimalEval" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DateMatch" />
@@ -142,6 +151,19 @@
       <option name="presentableId" value="Default" />
       <updated>1718420983881</updated>
     </task>
+    <task id="LOCAL-00001" summary="added flyweight design pattern">
+      <option name="closed" value="true" />
+      <created>1735963787993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735963787993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added flyweight design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flyweight design pattern" />
   </component>
 </project>
