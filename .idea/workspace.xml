@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added flyweight design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/reflection/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/reflection/ReflectionEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/reflection/Repeat.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="java ReflectionEval.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/ClosingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/ThreadLocalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/Threading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/TryClose.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +41,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnimalEval.executor": "Run",
+    "Application.ClosingExample.executor": "Run",
     "Application.ColorMatch.executor": "Run",
     "Application.DateMatch.executor": "Run",
+    "Application.ReflectionEval.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Threading.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.bascitest14 [clean].executor": "Run",
     "Maven.bascitest14 [compile].executor": "Run",
@@ -66,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectionEval">
+  <component name="RunManager" selected="Application.ClosingExample">
     <configuration name="AnimalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.tesco.flyweight.AnimalEval" />
       <module name="bascitest14" />
@@ -80,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.regex.ColorMatch" />
+    <configuration name="ClosingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.threading.ClosingExample" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.regex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.regex.DateMatch" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.regex.*" />
+          <option name="PATTERN" value="org.example.tesco.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Threading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.threading.Threading" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tesco.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosingExample" />
+        <item itemvalue="Application.Threading" />
         <item itemvalue="Application.ReflectionEval" />
         <item itemvalue="Application.AnimalEval" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DateMatch" />
-        <item itemvalue="Application.ColorMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +163,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735963787993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java ReflectionEval.java">
+      <option name="closed" value="true" />
+      <created>1735966401364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735966401364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added flyweight design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flyweight design pattern" />
+    <MESSAGE value="java ReflectionEval.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java ReflectionEval.java" />
   </component>
 </project>
