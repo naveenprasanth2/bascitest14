@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="inner class and thread local changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/challenges/FindDuplicateCharacterInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/challenges/FindUncommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/challenges/MergeSort.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="challenges updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/challenges/FindRepeatAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/EmployeeEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/SecondHighest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +45,15 @@
     "Application.ClosingExample.executor": "Run",
     "Application.ColorMatch.executor": "Run",
     "Application.DateMatch.executor": "Run",
+    "Application.EmployeeEval.executor": "Run",
     "Application.FindDuplicateCharacterInString.executor": "Run",
+    "Application.FindRepeatAndSort.executor": "Run",
     "Application.FindUncommon.executor": "Run",
     "Application.InnerEval.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RunAndCall.executor": "Debug",
+    "Application.SecondHighest.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
     "Application.Threading.executor": "Run",
@@ -77,9 +81,22 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="FindDuplicateCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.challenges.FindDuplicateCharacterInString" />
+  <component name="RunManager" selected="Application.SecondHighest">
+    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.EmployeeEval" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tesco.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindRepeatAndSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.challenges.FindRepeatAndSort" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -117,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.threading.ThreadLocalExample" />
+    <configuration name="SecondHighest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.SecondHighest" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.tesco.threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Threading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.threading.Threading" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.threading.*" />
+          <option name="PATTERN" value="org.example.tesco.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondHighest" />
+        <item itemvalue="Application.EmployeeEval" />
+        <item itemvalue="Application.FindRepeatAndSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.FindUncommon" />
-        <item itemvalue="Application.FindDuplicateCharacterInString" />
-        <item itemvalue="Application.Threading" />
-        <item itemvalue="Application.ThreadLocalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736056864206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="challenges updated">
+      <option name="closed" value="true" />
+      <created>1736057901108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736057901108</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +214,7 @@
     <MESSAGE value="java ReflectionEval.java" />
     <MESSAGE value="multithreading changes" />
     <MESSAGE value="inner class and thread local changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="inner class and thread local changes" />
+    <MESSAGE value="challenges updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="challenges updated" />
   </component>
 </project>
