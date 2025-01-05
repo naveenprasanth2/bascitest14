@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="classifier example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/LongestName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/PartitioningEval.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="partitioning and optional">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/WorkerFlatMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736066049909</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="partitioning and optional">
+      <option name="closed" value="true" />
+      <created>1736066859884</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736066859884</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,6 +241,7 @@
     <MESSAGE value="challenges updated" />
     <MESSAGE value="java 8 practise problems" />
     <MESSAGE value="classifier example" />
-    <option name="LAST_COMMIT_MESSAGE" value="classifier example" />
+    <MESSAGE value="partitioning and optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="partitioning and optional" />
   </component>
 </project>
