@@ -5,15 +5,20 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 public class ThreadLocalExample {
     ThreadLocal<SimpleDateFormat> dateFormatter = ThreadLocal
             .withInitial(() -> new SimpleDateFormat("yyyy-dd-MM"));
 
-    public static void main(String[] args) {
-        ExecutorService executorService = Executors.newFixedThreadPool(10);
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        try(ExecutorService executorService = Executors.newFixedThreadPool(10)){
+          Future<?> test = executorService.submit(() -> System.out.println("Summa"), "1");
+            System.out.println(test.get());
+        }
 
     }
 
