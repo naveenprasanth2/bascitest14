@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="partitioning and optional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/WorkerFlatMap.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="flat map examples">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/AverageSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/StaffMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnimalEval.executor": "Run",
+    "Application.AverageSalary.executor": "Run",
     "Application.ClosingExample.executor": "Run",
     "Application.ColorMatch.executor": "Run",
     "Application.DateMatch.executor": "Run",
@@ -81,9 +82,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestName">
-    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.EmployeeEval" />
+  <component name="RunManager" selected="Application.AverageSalary">
+    <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.AverageSalary" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindRepeatAndSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.challenges.FindRepeatAndSort" />
+    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.EmployeeEval" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.tesco.challenges.*" />
+          <option name="PATTERN" value="org.example.tesco.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageSalary" />
         <item itemvalue="Application.LongestName" />
         <item itemvalue="Application.GroupEmployees" />
         <item itemvalue="Application.SecondHighest" />
         <item itemvalue="Application.EmployeeEval" />
-        <item itemvalue="Application.FindRepeatAndSort" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736066859884</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="flat map examples">
+      <option name="closed" value="true" />
+      <created>1736067144073</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736067144073</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +251,7 @@
     <MESSAGE value="java 8 practise problems" />
     <MESSAGE value="classifier example" />
     <MESSAGE value="partitioning and optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="partitioning and optional" />
+    <MESSAGE value="flat map examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="flat map examples" />
   </component>
 </project>
