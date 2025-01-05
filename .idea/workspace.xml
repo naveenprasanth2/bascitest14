@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="java 8 practise problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/GroupEmployees.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="classifier example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/LongestName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/PartitioningEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,9 @@
     "Application.FindDuplicateCharacterInString.executor": "Run",
     "Application.FindRepeatAndSort.executor": "Run",
     "Application.FindUncommon.executor": "Run",
+    "Application.GroupEmployees.executor": "Run",
     "Application.InnerEval.executor": "Run",
+    "Application.LongestName.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RunAndCall.executor": "Debug",
@@ -78,7 +81,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupEmployees">
+  <component name="RunManager" selected="Application.LongestName">
     <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.EmployeeEval" />
       <module name="bascitest14" />
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.challenges.MergeSort" />
+    <configuration name="LongestName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.LongestName" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.tesco.challenges.*" />
+          <option name="PATTERN" value="org.example.tesco.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestName" />
         <item itemvalue="Application.GroupEmployees" />
         <item itemvalue="Application.SecondHighest" />
         <item itemvalue="Application.EmployeeEval" />
         <item itemvalue="Application.FindRepeatAndSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736059060003</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="classifier example">
+      <option name="closed" value="true" />
+      <created>1736066049909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736066049909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +232,7 @@
     <MESSAGE value="inner class and thread local changes" />
     <MESSAGE value="challenges updated" />
     <MESSAGE value="java 8 practise problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 8 practise problems" />
+    <MESSAGE value="classifier example" />
+    <option name="LAST_COMMIT_MESSAGE" value="classifier example" />
   </component>
 </project>
