@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="complex grouping of staff members">
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="square of sorted array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/ds/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/ds/SquareSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/HighestAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/FirstTwoPerDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/FirstTwoPerDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/GroupEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/streams/GroupEmployees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +53,15 @@
     "Application.FirstTwoPerDepartment.executor": "Run",
     "Application.GroupEmployees.executor": "Run",
     "Application.GroupingStaff.executor": "Run",
+    "Application.HighestAverage.executor": "Run",
     "Application.InnerEval.executor": "Run",
     "Application.LongestName.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RunAndCall.executor": "Debug",
     "Application.SecondHighest.executor": "Run",
+    "Application.SquareOfSortedArray.executor": "Run",
+    "Application.SquareSorted.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
     "Application.Threading.executor": "Run",
@@ -83,35 +89,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstTwoPerDepartment">
-    <configuration name="AverageSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.AverageSalary" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SquareSorted">
     <configuration name="FirstTwoPerDepartment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.FirstTwoPerDepartment" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.GroupEmployees" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.LongestName" />
+    <configuration name="HighestAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.HighestAverage" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -149,13 +129,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SquareOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.ds.SquareOfSortedArray" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tesco.ds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.ds.SquareSorted" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tesco.ds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareSorted" />
+        <item itemvalue="Application.SquareOfSortedArray" />
+        <item itemvalue="Application.HighestAverage" />
         <item itemvalue="Application.FirstTwoPerDepartment" />
         <item itemvalue="Application.GroupingStaff" />
-        <item itemvalue="Application.AverageSalary" />
-        <item itemvalue="Application.LongestName" />
-        <item itemvalue="Application.GroupEmployees" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736072250527</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="complex grouping of staff members">
+      <option name="closed" value="true" />
+      <created>1736073071754</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736073071754</updated>
+    </task>
+    <task id="LOCAL-00013" summary="square of sorted array">
+      <option name="closed" value="true" />
+      <created>1736131885693</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736131885693</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,6 +293,7 @@
     <MESSAGE value="flat map examples" />
     <MESSAGE value="average salary and summary" />
     <MESSAGE value="complex grouping of staff members" />
-    <option name="LAST_COMMIT_MESSAGE" value="complex grouping of staff members" />
+    <MESSAGE value="square of sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="square of sorted array" />
   </component>
 </project>
