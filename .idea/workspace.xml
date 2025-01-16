@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="parking lot implementation">
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="parking lot improved changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/FindShifts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/Scheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tesco/parking/ParkingSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/parking/ParkingSpace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +62,7 @@
     "Application.ParkingTest.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
     "Application.RunAndCall.executor": "Debug",
+    "Application.Scheduler.executor": "Run",
     "Application.SecondHighest.executor": "Run",
     "Application.SquareOfSortedArray.executor": "Run",
     "Application.SquareSorted.executor": "Run",
@@ -83,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.tesco.tesco" />
       <recent name="org.example.tesco.threading" />
       <recent name="org.example.tesco.flyweight" />
     </key>
@@ -90,20 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParkingTest">
-    <configuration name="HighestAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.streams.HighestAverage" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Scheduler">
     <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.tesco.ds.Mergesort" />
       <module name="bascitest14" />
@@ -123,6 +115,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.tesco.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tesco.tesco.Scheduler" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tesco.tesco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scheduler" />
         <item itemvalue="Application.ParkingTest" />
         <item itemvalue="Application.Mergesort" />
         <item itemvalue="Application.SquareSorted" />
         <item itemvalue="Application.SquareOfSortedArray" />
-        <item itemvalue="Application.HighestAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737011404944</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="parking lot improved changes">
+      <option name="closed" value="true" />
+      <created>1737021572620</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737021572620</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -322,6 +335,23 @@
     <MESSAGE value="arrays challenges" />
     <MESSAGE value="merge sort algorithm" />
     <MESSAGE value="parking lot implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="parking lot implementation" />
+    <MESSAGE value="parking lot improved changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="parking lot improved changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/FindShifts.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/FindShifts.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
