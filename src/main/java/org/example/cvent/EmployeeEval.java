@@ -1,12 +1,9 @@
 package org.example.cvent;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class EmployeeEval {
-//    Given A company's organizational structure is represented as
+    //    Given A company's organizational structure is represented as
 //            1: 2, 3, 4
 //    In the above employees with id 2, 3 and 4 report to 1
 //
@@ -23,12 +20,13 @@ public class EmployeeEval {
         map.put(3, List.of(5, 6, 7));
         map.put(5, List.of(8, 9, 10));
 
-        System.out.println(getAllEmployees(8).stream().distinct().toList());
-        System.out.println(getAllEmployees(10).stream().distinct().toList());
+        System.out.println(getAllEmployees(8));
+        System.out.println(getAllEmployees(10));
+        System.out.println(getAllEmployees(5));
 
     }
 
-    private static List<Integer> getAllEmployees(int id) {
+    private static Optional<List<Integer>> getAllEmployees(int id) {
         List<Integer> employees = new ArrayList<>();
         int i = 0;
         while (map.containsKey(id) || i < employees.size()) {
@@ -37,7 +35,7 @@ public class EmployeeEval {
             }
             id = i++;
         }
-        return employees;
+        return Optional.of(employees);
     }
 
 
