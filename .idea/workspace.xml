@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="cvent interview question">
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added optional for better exception handling">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/WaterContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cvent/EmployeeEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/EmployeeEval.java" afterDir="false" />
     </list>
@@ -37,51 +39,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnimalEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AverageSalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClosingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ColorMatch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateMatch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicateCharacterInString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindRepeatAndSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindUncommon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstTwoPerDepartment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupEmployees.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupingStaff.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HighestAverage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InnerEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mergesort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParkingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReflectionEval.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunAndCall.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Scheduler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondHighest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SquareOfSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SquareSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLocalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Threading.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.bascitest14 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.bascitest14 [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.bascitest14 [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/naveenprasanthramasamy/IdeaProjects/bascitest14&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnimalEval.executor": "Run",
+    "Application.AverageSalary.executor": "Run",
+    "Application.ClosingExample.executor": "Run",
+    "Application.ColorMatch.executor": "Run",
+    "Application.DateMatch.executor": "Run",
+    "Application.EmployeeEval.executor": "Run",
+    "Application.FindDuplicateCharacterInString.executor": "Run",
+    "Application.FindRepeatAndSort.executor": "Run",
+    "Application.FindUncommon.executor": "Run",
+    "Application.FirstTwoPerDepartment.executor": "Run",
+    "Application.GroupEmployees.executor": "Run",
+    "Application.GroupingStaff.executor": "Run",
+    "Application.HighestAverage.executor": "Run",
+    "Application.InnerEval.executor": "Run",
+    "Application.LongestName.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.Mergesort.executor": "Run",
+    "Application.ParkingTest.executor": "Run",
+    "Application.ReflectionEval.executor": "Run",
+    "Application.RunAndCall.executor": "Debug",
+    "Application.Scheduler.executor": "Run",
+    "Application.SecondHighest.executor": "Run",
+    "Application.SquareOfSortedArray.executor": "Run",
+    "Application.SquareSorted.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThreadLocalExample.executor": "Run",
+    "Application.Threading.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.bascitest14 [clean].executor": "Run",
+    "Maven.bascitest14 [compile].executor": "Run",
+    "Maven.bascitest14 [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/naveenprasanthramasamy/IdeaProjects/bascitest14",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.tesco.tesco" />
@@ -92,39 +95,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeEval">
+  <component name="RunManager" selected="Application.WaterContainer">
     <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.cvent.EmployeeEval" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.cvent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.parking.ParkingTest" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.tesco.Scheduler" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.tesco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +135,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.TwoSum" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaterContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.WaterContainer" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaterContainer" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.EmployeeEval" />
         <item itemvalue="Application.SquareSorted" />
         <item itemvalue="Application.SquareOfSortedArray" />
-        <item itemvalue="Application.Scheduler" />
-        <item itemvalue="Application.ParkingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737385419809</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added optional for better exception handling">
+      <option name="closed" value="true" />
+      <created>1737514542303</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737514542303</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,7 +362,8 @@
     <MESSAGE value="parking lot improved changes" />
     <MESSAGE value="tesco interview question changes" />
     <MESSAGE value="cvent interview question" />
-    <option name="LAST_COMMIT_MESSAGE" value="cvent interview question" />
+    <MESSAGE value="added optional for better exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added optional for better exception handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
