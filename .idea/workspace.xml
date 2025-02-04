@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="two sum and water container problem">
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="effective WaterContainer solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/WaterContainer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsa/WaterContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/WaterContainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     "Application.Threading.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.WaterContainer.executor": "Run",
+    "Application.WaterContainer1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.bascitest14 [clean].executor": "Run",
     "Maven.bascitest14 [compile].executor": "Run",
@@ -94,7 +96,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaterContainer">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.cvent.EmployeeEval" />
       <module name="bascitest14" />
@@ -108,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.ds.SquareOfSortedArray" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.MergeSort" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.tesco.ds.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tesco.ds.SquareSorted" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tesco.ds.*" />
+          <option name="PATTERN" value="org.example.dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaterContainer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.WaterContainer1" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.WaterContainer1" />
         <item itemvalue="Application.WaterContainer" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.EmployeeEval" />
-        <item itemvalue="Application.SquareSorted" />
-        <item itemvalue="Application.SquareOfSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737813897345</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="effective WaterContainer solution">
+      <option name="closed" value="true" />
+      <created>1738679293982</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1738679293983</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -371,7 +381,8 @@
     <MESSAGE value="cvent interview question" />
     <MESSAGE value="added optional for better exception handling" />
     <MESSAGE value="two sum and water container problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="two sum and water container problem" />
+    <MESSAGE value="effective WaterContainer solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="effective WaterContainer solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
