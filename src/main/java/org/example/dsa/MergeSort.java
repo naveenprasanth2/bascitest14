@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class MergeSort {
 
     public static void main(String[] args) {
-        int[] original = {1, 8, 6, 2, 5, 4, 8, 100, 7};
+        int[] original = {};
         System.out.println(STR."The original array is\{Arrays.toString(original)}");
         mergeSort(original);
         System.out.println(STR."The sorted array is\{Arrays.toString(original)}");
     }
 
     private static void mergeSort(int[] original) {
-        if (original.length == 1) return;
+        if (original == null || original.length <= 1) return;
 
         int mid = original.length / 2;
         int[] left = new int[mid];
