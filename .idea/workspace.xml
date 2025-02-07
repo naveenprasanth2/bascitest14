@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="finding LongestSubString.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/CountingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/MaxProfitProblem.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="adding counting elements and max profit problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     "Application.InnerEval.executor": "Run",
     "Application.LongestName.executor": "Run",
     "Application.LongestSubString.executor": "Run",
-    "Application.MaxProfitProblem.executor": "Debug",
+    "Application.MaxProfitProblem.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.Mergesort.executor": "Run",
     "Application.ParkingTest.executor": "Run",
@@ -99,7 +98,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxProfitProblem">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="CountingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dsa.CountingElements" />
       <module name="bascitest14" />
@@ -152,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaterContainer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.WaterContainer1" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.TwoSum" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsa.*" />
+          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MaxProfitProblem" />
         <item itemvalue="Application.CountingElements" />
         <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.WaterContainer1" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738775032408</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adding counting elements and max profit problem">
+      <option name="closed" value="true" />
+      <created>1738916450968</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738916450968</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -403,7 +410,8 @@
     <MESSAGE value="effective WaterContainer solution" />
     <MESSAGE value="mergesort and water container" />
     <MESSAGE value="finding LongestSubString.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding LongestSubString.java" />
+    <MESSAGE value="adding counting elements and max profit problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding counting elements and max profit problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
