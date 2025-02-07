@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added two sum code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/BuyAndSell.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added but and sell for best price">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/ValidParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/ValidParenthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
   "keyToString": {
     "Application.AnimalEval.executor": "Run",
     "Application.AverageSalary.executor": "Run",
+    "Application.BuyAndSell.executor": "Run",
     "Application.ClosingExample.executor": "Run",
     "Application.ColorMatch.executor": "Run",
     "Application.CountingElements.executor": "Run",
@@ -70,6 +71,7 @@
     "Application.ThreadLocalExample.executor": "Run",
     "Application.Threading.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.ValidParenthesis.executor": "Run",
     "Application.WaterContainer.executor": "Run",
     "Application.WaterContainer1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -98,7 +100,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuyAndSell">
+  <component name="RunManager" selected="Application.ValidParenthesis">
     <configuration name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.BuyAndSell" />
       <module name="bascitest14" />
@@ -114,19 +116,6 @@
     </configuration>
     <configuration name="CountingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dsa.CountingElements" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.LongestSubString" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -164,13 +153,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.ValidParenthesis" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.BuyAndSell" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MaxProfitProblem" />
         <item itemvalue="Application.CountingElements" />
-        <item itemvalue="Application.LongestSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -391,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738916843078</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added but and sell for best price">
+      <option name="closed" value="true" />
+      <created>1738917259127</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738917259127</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added flyweight design pattern" />
     <MESSAGE value="java ReflectionEval.java" />
     <MESSAGE value="multithreading changes" />
     <MESSAGE value="inner class and thread local changes" />
@@ -420,7 +429,8 @@
     <MESSAGE value="finding LongestSubString.java" />
     <MESSAGE value="adding counting elements and max profit problem" />
     <MESSAGE value="added two sum code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added two sum code" />
+    <MESSAGE value="added but and sell for best price" />
+    <option name="LAST_COMMIT_MESSAGE" value="added but and sell for best price" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
