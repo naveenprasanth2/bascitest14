@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="adding counting elements and max profit problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/TwoSum.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added two sum code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/BuyAndSell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,20 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
+  <component name="RunManager" selected="Application.BuyAndSell">
+    <configuration name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.BuyAndSell" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dsa.CountingElements" />
       <module name="bascitest14" />
@@ -138,19 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.MergeSort" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.TwoSum" />
       <module name="bascitest14" />
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyAndSell" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MaxProfitProblem" />
         <item itemvalue="Application.CountingElements" />
         <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738916450968</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added two sum code">
+      <option name="closed" value="true" />
+      <created>1738916843078</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738916843078</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -411,7 +419,8 @@
     <MESSAGE value="mergesort and water container" />
     <MESSAGE value="finding LongestSubString.java" />
     <MESSAGE value="adding counting elements and max profit problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding counting elements and max profit problem" />
+    <MESSAGE value="added two sum code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added two sum code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
