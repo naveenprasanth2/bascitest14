@@ -11,9 +11,7 @@ public class BuyAndSell {
         int maxProfit = 0;
 
         for (int price: prices){
-            if (price < minPrice){
-                minPrice = price;
-            }
+            minPrice = Math.min(price, minPrice);
             maxProfit = Math.max(maxProfit, price - minPrice);
         }
         return maxProfit;
