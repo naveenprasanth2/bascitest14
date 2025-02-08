@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="added but and sell for best price">
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="valid paranthesis using stack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/ValidParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/ValidParenthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,8 @@
   "keyToString": {
     "Application.AnimalEval.executor": "Run",
     "Application.AverageSalary.executor": "Run",
+    "Application.BackspaceCompare.executor": "Run",
+    "Application.BestBuyAndSell.executor": "Debug",
     "Application.BuyAndSell.executor": "Run",
     "Application.ClosingExample.executor": "Run",
     "Application.ColorMatch.executor": "Run",
@@ -48,6 +51,7 @@
     "Application.DateMatch.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
     "Application.FindDuplicateCharacterInString.executor": "Run",
+    "Application.FindMiddleNode.executor": "Run",
     "Application.FindRepeatAndSort.executor": "Run",
     "Application.FindUncommon.executor": "Run",
     "Application.FirstTwoPerDepartment.executor": "Run",
@@ -56,12 +60,15 @@
     "Application.HighestAverage.executor": "Run",
     "Application.InnerEval.executor": "Run",
     "Application.LongestName.executor": "Run",
+    "Application.LongestPalindrome.executor": "Run",
     "Application.LongestSubString.executor": "Run",
     "Application.MaxProfitProblem.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.Mergesort.executor": "Run",
     "Application.ParkingTest.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.RotateArrays.executor": "Run",
     "Application.RunAndCall.executor": "Debug",
     "Application.Scheduler.executor": "Run",
     "Application.SecondHighest.executor": "Run",
@@ -72,8 +79,10 @@
     "Application.Threading.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
+    "Application.ValidParenthesis1.executor": "Run",
     "Application.WaterContainer.executor": "Run",
     "Application.WaterContainer1.executor": "Run",
+    "Application.org.example.chatgpt.dsa.CountingElements.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.bascitest14 [clean].executor": "Run",
     "Maven.bascitest14 [compile].executor": "Run",
@@ -100,9 +109,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidParenthesis">
-    <configuration name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.BuyAndSell" />
+  <component name="RunManager" selected="Application.ReverseString">
+    <configuration name="BackspaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.BackspaceCompare" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -114,34 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.CountingElements" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxProfitProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.MaxProfitProblem" />
-      <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.TwoSum" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestPalindrome" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +136,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.ValidParenthesis" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.ReverseString" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.RotateArrays" />
+      <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParenthesis1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.ValidParenthesis1" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.BuyAndSell" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.MaxProfitProblem" />
-        <item itemvalue="Application.CountingElements" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.ValidParenthesis1" />
+        <item itemvalue="Application.RotateArrays" />
+        <item itemvalue="Application.BackspaceCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -401,15 +410,50 @@
       <option name="project" value="LOCAL" />
       <updated>1738917259127</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="count elements if nearest present">
+      <option name="closed" value="true" />
+      <created>1739018863455</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739018863455</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added max profit test case">
+      <option name="closed" value="true" />
+      <created>1739019120820</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1739019120820</updated>
+    </task>
+    <task id="LOCAL-00030" summary="comparing string with backspace">
+      <option name="closed" value="true" />
+      <created>1739021350833</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1739021350833</updated>
+    </task>
+    <task id="LOCAL-00031" summary="rotate arrays leetcode">
+      <option name="closed" value="true" />
+      <created>1739022127506</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739022127506</updated>
+    </task>
+    <task id="LOCAL-00032" summary="valid paranthesis using stack">
+      <option name="closed" value="true" />
+      <created>1739022751012</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1739022751012</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java ReflectionEval.java" />
-    <MESSAGE value="multithreading changes" />
-    <MESSAGE value="inner class and thread local changes" />
-    <MESSAGE value="challenges updated" />
-    <MESSAGE value="java 8 practise problems" />
     <MESSAGE value="classifier example" />
     <MESSAGE value="partitioning and optional" />
     <MESSAGE value="flat map examples" />
@@ -430,7 +474,12 @@
     <MESSAGE value="adding counting elements and max profit problem" />
     <MESSAGE value="added two sum code" />
     <MESSAGE value="added but and sell for best price" />
-    <option name="LAST_COMMIT_MESSAGE" value="added but and sell for best price" />
+    <MESSAGE value="count elements if nearest present" />
+    <MESSAGE value="added max profit test case" />
+    <MESSAGE value="comparing string with backspace" />
+    <MESSAGE value="rotate arrays leetcode" />
+    <MESSAGE value="valid paranthesis using stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="valid paranthesis using stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
