@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="valid paranthesis using stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/ReverseString.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="longest palindrome string logic practised">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/ThreadLocalEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/ThreadLocalEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +60,13 @@
     "Application.GroupingStaff.executor": "Run",
     "Application.HighestAverage.executor": "Run",
     "Application.InnerEval.executor": "Run",
+    "Application.LengthOfLongestSubstring.executor": "Run",
     "Application.LongestName.executor": "Run",
     "Application.LongestPalindrome.executor": "Run",
+    "Application.LongestPalindrome1.executor": "Run",
     "Application.LongestSubString.executor": "Run",
+    "Application.LongestSubstring.executor": "Run",
+    "Application.LongestSubstring1.executor": "Run",
     "Application.MaxProfitProblem.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.Mergesort.executor": "Run",
@@ -74,6 +79,7 @@
     "Application.SecondHighest.executor": "Run",
     "Application.SquareOfSortedArray.executor": "Run",
     "Application.SquareSorted.executor": "Run",
+    "Application.Sum.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
     "Application.Threading.executor": "Run",
@@ -92,11 +98,12 @@
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/naveenprasanthramasamy/IdeaProjects/bascitest14",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "/Users/naveenprasanthramasamy/IdeaProjects/basictest14/pom.xml",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.splitter.proportion": "0.24872579"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -109,9 +116,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseString">
-    <configuration name="BackspaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.BackspaceCompare" />
+  <component name="RunManager" selected="Application.LongestPalindrome1">
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LengthOfLongestSubstring" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestPalindrome" />
+    <configuration name="LongestPalindrome1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestPalindrome1" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.ReverseString" />
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestSubstring" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.RotateArrays" />
+    <configuration name="LongestSubstring1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestSubstring1" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -162,26 +169,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.ValidParenthesis1" />
+    <configuration name="ThreadLocalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ThreadLocalEval" />
       <module name="bascitest14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.ValidParenthesis1" />
-        <item itemvalue="Application.RotateArrays" />
-        <item itemvalue="Application.BackspaceCompare" />
+        <item itemvalue="Application.LongestPalindrome1" />
+        <item itemvalue="Application.ThreadLocalEval" />
+        <item itemvalue="Application.LongestSubstring1" />
+        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.LengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -450,15 +452,50 @@
       <option name="project" value="LOCAL" />
       <updated>1739022751012</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="LongestPalindrome.java">
+      <option name="closed" value="true" />
+      <created>1739030239437</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1739030239437</updated>
+    </task>
+    <task id="LOCAL-00034" summary="adding two big numbers problem solved">
+      <option name="closed" value="true" />
+      <created>1739081355382</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1739081355382</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added length of substring optimistic code">
+      <option name="closed" value="true" />
+      <created>1739085201433</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1739085201433</updated>
+    </task>
+    <task id="LOCAL-00036" summary="practised longest substring">
+      <option name="closed" value="true" />
+      <created>1739096458858</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1739096458858</updated>
+    </task>
+    <task id="LOCAL-00037" summary="longest palindrome string logic practised">
+      <option name="closed" value="true" />
+      <created>1739105636414</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1739105636414</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="classifier example" />
-    <MESSAGE value="partitioning and optional" />
-    <MESSAGE value="flat map examples" />
-    <MESSAGE value="average salary and summary" />
-    <MESSAGE value="complex grouping of staff members" />
     <MESSAGE value="square of sorted array" />
     <MESSAGE value="arrays challenges" />
     <MESSAGE value="merge sort algorithm" />
@@ -479,7 +516,12 @@
     <MESSAGE value="comparing string with backspace" />
     <MESSAGE value="rotate arrays leetcode" />
     <MESSAGE value="valid paranthesis using stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid paranthesis using stack" />
+    <MESSAGE value="LongestPalindrome.java" />
+    <MESSAGE value="adding two big numbers problem solved" />
+    <MESSAGE value="added length of substring optimistic code" />
+    <MESSAGE value="practised longest substring" />
+    <MESSAGE value="longest palindrome string logic practised" />
+    <option name="LAST_COMMIT_MESSAGE" value="longest palindrome string logic practised" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -493,6 +535,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/tesco/tesco/FindShifts.java</url>
           <line>57</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/LengthOfLongestSubstring.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
