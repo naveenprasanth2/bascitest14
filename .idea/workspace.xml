@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="longest palindrome string logic practised">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="linkedlist evaluation class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/course/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lc/MinHeapEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lc/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/trellix/Trellix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/ThreadLocalEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tesco/threading/ThreadLocalEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,8 @@
     "Application.CountingElements.executor": "Run",
     "Application.DateMatch.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
+    "Application.EncodeAndDecode.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FindDuplicateCharacterInString.executor": "Run",
     "Application.FindMiddleNode.executor": "Run",
     "Application.FindRepeatAndSort.executor": "Run",
@@ -61,28 +64,38 @@
     "Application.HighestAverage.executor": "Run",
     "Application.InnerEval.executor": "Run",
     "Application.LengthOfLongestSubstring.executor": "Run",
+    "Application.LinkedListEval.executor": "Run",
     "Application.LongestName.executor": "Run",
     "Application.LongestPalindrome.executor": "Run",
-    "Application.LongestPalindrome1.executor": "Run",
+    "Application.LongestPalindrome1.executor": "Debug",
     "Application.LongestSubString.executor": "Run",
     "Application.LongestSubstring.executor": "Run",
     "Application.LongestSubstring1.executor": "Run",
     "Application.MaxProfitProblem.executor": "Run",
+    "Application.MaximumSumOfTwoValues.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.Mergesort.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "Application.ParkingTest.executor": "Run",
+    "Application.PutZerosToEnd.executor": "Run",
     "Application.ReflectionEval.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RotateArrays.executor": "Run",
     "Application.RunAndCall.executor": "Debug",
     "Application.Scheduler.executor": "Run",
     "Application.SecondHighest.executor": "Run",
+    "Application.SerializeDeserialize.executor": "Run",
     "Application.SquareOfSortedArray.executor": "Run",
     "Application.SquareSorted.executor": "Run",
+    "Application.StackImplementation.executor": "Run",
     "Application.Sum.executor": "Run",
+    "Application.SumOfSuArrays.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.ThreadLocalEval.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
     "Application.Threading.executor": "Run",
+    "Application.Trellix.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
     "Application.ValidParenthesis1.executor": "Run",
@@ -116,13 +129,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome1">
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LengthOfLongestSubstring" />
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="EncodeAndDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lc.EncodeAndDecode" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="PATTERN" value="org.example.lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestPalindrome1" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lc.Palindrome" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="PATTERN" value="org.example.lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestSubstring" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lc.RemoveDuplicates" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="PATTERN" value="org.example.lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstring1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chatgpt.dsa.LongestSubstring1" />
+    <configuration name="SerializeDeserialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lc.SerializeDeserialize" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chatgpt.dsa.*" />
+          <option name="PATTERN" value="org.example.lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,21 +182,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ThreadLocalEval" />
+    <configuration name="StackImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sagar.StackImplementation" />
       <module name="bascitest14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sagar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestPalindrome1" />
-        <item itemvalue="Application.ThreadLocalEval" />
-        <item itemvalue="Application.LongestSubstring1" />
-        <item itemvalue="Application.LongestSubstring" />
-        <item itemvalue="Application.LengthOfLongestSubstring" />
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.SerializeDeserialize" />
+        <item itemvalue="Application.EncodeAndDecode" />
+        <item itemvalue="Application.StackImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -492,21 +510,109 @@
       <option name="project" value="LOCAL" />
       <updated>1739105636414</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="added thread local eval code changes">
+      <option name="closed" value="true" />
+      <created>1739105752816</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1739105752816</updated>
+    </task>
+    <task id="LOCAL-00039" summary="encode and decode lc problem">
+      <option name="closed" value="true" />
+      <created>1739668964842</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1739668964842</updated>
+    </task>
+    <task id="LOCAL-00040" summary="stackImplementation with arrays in java">
+      <option name="closed" value="true" />
+      <created>1740188323593</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1740188323593</updated>
+    </task>
+    <task id="LOCAL-00041" summary="findinf factorial using recursion">
+      <option name="closed" value="true" />
+      <created>1740308939741</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1740308939741</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Mode zeros to end with out using extra space">
+      <option name="closed" value="true" />
+      <created>1740308957742</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1740308957742</updated>
+    </task>
+    <task id="LOCAL-00043" summary="stack implementation using array">
+      <option name="closed" value="true" />
+      <created>1740308977037</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1740308977037</updated>
+    </task>
+    <task id="LOCAL-00044" summary="sum of sub arrays">
+      <option name="closed" value="true" />
+      <created>1740309018556</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1740309018556</updated>
+    </task>
+    <task id="LOCAL-00045" summary="encode and decode strings">
+      <option name="closed" value="true" />
+      <created>1740309034641</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1740309034641</updated>
+    </task>
+    <task id="LOCAL-00046" summary="finding max sum of two numbers">
+      <option name="closed" value="true" />
+      <created>1740309063092</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1740309063092</updated>
+    </task>
+    <task id="LOCAL-00047" summary="finsing longest Palindrome substring">
+      <option name="closed" value="true" />
+      <created>1740309091559</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1740309091559</updated>
+    </task>
+    <task id="LOCAL-00048" summary="linkedlist evaluation class">
+      <option name="closed" value="true" />
+      <created>1740309115903</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1740309115903</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square of sorted array" />
-    <MESSAGE value="arrays challenges" />
-    <MESSAGE value="merge sort algorithm" />
-    <MESSAGE value="parking lot implementation" />
-    <MESSAGE value="parking lot improved changes" />
-    <MESSAGE value="tesco interview question changes" />
-    <MESSAGE value="cvent interview question" />
-    <MESSAGE value="added optional for better exception handling" />
-    <MESSAGE value="two sum and water container problem" />
-    <MESSAGE value="effective WaterContainer solution" />
-    <MESSAGE value="mergesort and water container" />
     <MESSAGE value="finding LongestSubString.java" />
     <MESSAGE value="adding counting elements and max profit problem" />
     <MESSAGE value="added two sum code" />
@@ -521,7 +627,18 @@
     <MESSAGE value="added length of substring optimistic code" />
     <MESSAGE value="practised longest substring" />
     <MESSAGE value="longest palindrome string logic practised" />
-    <option name="LAST_COMMIT_MESSAGE" value="longest palindrome string logic practised" />
+    <MESSAGE value="added thread local eval code changes" />
+    <MESSAGE value="encode and decode lc problem" />
+    <MESSAGE value="stackImplementation with arrays in java" />
+    <MESSAGE value="findinf factorial using recursion" />
+    <MESSAGE value="Mode zeros to end with out using extra space" />
+    <MESSAGE value="stack implementation using array" />
+    <MESSAGE value="sum of sub arrays" />
+    <MESSAGE value="encode and decode strings" />
+    <MESSAGE value="finding max sum of two numbers" />
+    <MESSAGE value="finsing longest Palindrome substring" />
+    <MESSAGE value="linkedlist evaluation class" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist evaluation class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,6 +657,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/chatgpt/dsa/LengthOfLongestSubstring.java</url>
           <line>15</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/trellix/Trellix.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
