@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="fibonacci bottom down series">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/EmpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/EmplInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/FunctionalEval.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="reflection concepts">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/EmployeeEval2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/Times.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cvent/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Enum" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,7 +57,9 @@
     "Application.DateMatch.executor": "Run",
     "Application.EmpTest.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
+    "Application.EmployeeEval2.executor": "Run",
     "Application.EncodeAndDecode.executor": "Run",
+    "Application.EnumEval.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FibBottomUp.executor": "Run",
     "Application.FibTopDown.executor": "Debug",
@@ -100,6 +101,7 @@
     "Application.SquareOfSortedArray.executor": "Run",
     "Application.SquareSorted.executor": "Run",
     "Application.StackImplementation.executor": "Run",
+    "Application.StudentEval.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.SumOfSuArrays.executor": "Run",
     "Application.Test.executor": "Run",
@@ -140,7 +142,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmpTest">
+  <component name="RunManager" selected="Application.EmployeeEval2">
     <configuration name="EmpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.cvent.EmpTest" />
       <module name="bascitest14" />
@@ -154,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibTopDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.dp.FibTopDown" />
+    <configuration name="EmployeeEval2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cvent.EmployeeEval2" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsa.dp.*" />
+          <option name="PATTERN" value="org.example.cvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciBottomUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.dp.FibonacciBottomUp" />
+    <configuration name="EnumEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cvent.EnumEval" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsa.dp.*" />
+          <option name="PATTERN" value="org.example.cvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTopDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsa.dp.FibonacciTopDown" />
+    <configuration name="ReflectionEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cvent.ReflectionEval" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsa.dp.*" />
+          <option name="PATTERN" value="org.example.cvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.cvent.FunctionalEval" />
+    <configuration name="StudentEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cvent.StudentEval" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
@@ -208,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeEval2" />
+        <item itemvalue="Application.ReflectionEval" />
+        <item itemvalue="Application.EnumEval" />
+        <item itemvalue="Application.StudentEval" />
         <item itemvalue="Application.EmpTest" />
-        <item itemvalue="Application.FunctionalEval" />
-        <item itemvalue="Application.FibonacciTopDown" />
-        <item itemvalue="Application.FibonacciBottomUp" />
-        <item itemvalue="Application.FibTopDown" />
       </list>
     </recent_temporary>
   </component>
@@ -224,38 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718420983881</updated>
-    </task>
-    <task id="LOCAL-00009" summary="flat map examples">
-      <option name="closed" value="true" />
-      <created>1736067144073</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1736067144073</updated>
-    </task>
-    <task id="LOCAL-00010" summary="average salary and summary">
-      <option name="closed" value="true" />
-      <created>1736071323004</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1736071323004</updated>
-    </task>
-    <task id="LOCAL-00011" summary="complex grouping of staff members">
-      <option name="closed" value="true" />
-      <created>1736072250527</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1736072250527</updated>
-    </task>
-    <task id="LOCAL-00012" summary="complex grouping of staff members">
-      <option name="closed" value="true" />
-      <created>1736073071754</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1736073071754</updated>
     </task>
     <task id="LOCAL-00013" summary="square of sorted array">
       <option name="closed" value="true" />
@@ -617,7 +587,39 @@
       <option name="project" value="LOCAL" />
       <updated>1742617333234</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="comparable and comparator">
+      <option name="closed" value="true" />
+      <created>1743038269888</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1743038269888</updated>
+    </task>
+    <task id="LOCAL-00059" summary="record examples">
+      <option name="closed" value="true" />
+      <created>1743038780452</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1743038780453</updated>
+    </task>
+    <task id="LOCAL-00060" summary="enum examples and explanations">
+      <option name="closed" value="true" />
+      <created>1743039152226</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1743039152227</updated>
+    </task>
+    <task id="LOCAL-00061" summary="reflection concepts">
+      <option name="closed" value="true" />
+      <created>1743040297759</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1743040297759</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,10 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LongestPalindrome.java" />
-    <MESSAGE value="adding two big numbers problem solved" />
-    <MESSAGE value="added length of substring optimistic code" />
-    <MESSAGE value="practised longest substring" />
     <MESSAGE value="longest palindrome string logic practised" />
     <MESSAGE value="added thread local eval code changes" />
     <MESSAGE value="encode and decode lc problem" />
@@ -657,7 +655,11 @@
     <MESSAGE value="merge sort algorithm" />
     <MESSAGE value="fibonacci bottom up series" />
     <MESSAGE value="fibonacci bottom down series" />
-    <option name="LAST_COMMIT_MESSAGE" value="fibonacci bottom down series" />
+    <MESSAGE value="comparable and comparator" />
+    <MESSAGE value="record examples" />
+    <MESSAGE value="enum examples and explanations" />
+    <MESSAGE value="reflection concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection concepts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
