@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="reflection concepts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/EmployeeEval2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/Times.java" afterDir="false" />
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="custom annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/EmployeeEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/TimesAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cvent/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cvent/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,96 +42,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalEval.executor": "Run",
-    "Application.AverageSalary.executor": "Run",
-    "Application.BackspaceCompare.executor": "Run",
-    "Application.BestBuyAndSell.executor": "Debug",
-    "Application.BinaryTree.executor": "Run",
-    "Application.BuyAndSell.executor": "Run",
-    "Application.ClosingExample.executor": "Run",
-    "Application.ColorMatch.executor": "Run",
-    "Application.ConvertPascalCase.executor": "Run",
-    "Application.CountingElements.executor": "Run",
-    "Application.DateMatch.executor": "Run",
-    "Application.EmpTest.executor": "Run",
-    "Application.EmployeeEval.executor": "Run",
-    "Application.EmployeeEval2.executor": "Run",
-    "Application.EncodeAndDecode.executor": "Run",
-    "Application.EnumEval.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FibBottomUp.executor": "Run",
-    "Application.FibTopDown.executor": "Debug",
-    "Application.FibonacciBottomUp.executor": "Run",
-    "Application.FibonacciTopDown.executor": "Run",
-    "Application.FindDuplicateCharacterInString.executor": "Run",
-    "Application.FindMiddleNode.executor": "Run",
-    "Application.FindRepeatAndSort.executor": "Run",
-    "Application.FindUncommon.executor": "Run",
-    "Application.FirstTwoPerDepartment.executor": "Run",
-    "Application.FunctionalEval.executor": "Run",
-    "Application.GroupEmployees.executor": "Run",
-    "Application.GroupingStaff.executor": "Run",
-    "Application.HighestAverage.executor": "Run",
-    "Application.InnerEval.executor": "Run",
-    "Application.LengthOfLongestSubstring.executor": "Run",
-    "Application.LinkedListEval.executor": "Run",
-    "Application.LongestName.executor": "Run",
-    "Application.LongestPalindrome.executor": "Run",
-    "Application.LongestPalindrome1.executor": "Debug",
-    "Application.LongestSubString.executor": "Run",
-    "Application.LongestSubstring.executor": "Run",
-    "Application.LongestSubstring1.executor": "Run",
-    "Application.MaxProfitProblem.executor": "Run",
-    "Application.MaximumSumOfTwoValues.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.Mergesort.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.ParkingTest.executor": "Run",
-    "Application.PutZerosToEnd.executor": "Run",
-    "Application.ReflectionEval.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.RotateArrays.executor": "Run",
-    "Application.RunAndCall.executor": "Debug",
-    "Application.Scheduler.executor": "Run",
-    "Application.SecondHighest.executor": "Run",
-    "Application.SerializeDeserialize.executor": "Run",
-    "Application.SquareOfSortedArray.executor": "Run",
-    "Application.SquareSorted.executor": "Run",
-    "Application.StackImplementation.executor": "Run",
-    "Application.StudentEval.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.SumOfSuArrays.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.ThreadLocalEval.executor": "Run",
-    "Application.ThreadLocalExample.executor": "Run",
-    "Application.Threading.executor": "Run",
-    "Application.Trellix.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.ValidParenthesis.executor": "Run",
-    "Application.ValidParenthesis1.executor": "Run",
-    "Application.WaterContainer.executor": "Run",
-    "Application.WaterContainer1.executor": "Run",
-    "Application.org.example.chatgpt.dsa.CountingElements.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.bascitest14 [clean].executor": "Run",
-    "Maven.bascitest14 [compile].executor": "Run",
-    "Maven.bascitest14 [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/naveenprasanthramasamy/IdeaProjects/basictest14/pom.xml",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "settings.editor.splitter.proportion": "0.24872579"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AverageSalary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BackspaceCompare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestBuyAndSell.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuyAndSell.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClosingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ColorMatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertPascalCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountingElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateMatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmpTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeEval2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncodeAndDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibBottomUp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibTopDown.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FibonacciBottomUp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciTopDown.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateCharacterInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMiddleNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindRepeatAndSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindUncommon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstTwoPerDepartment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupingStaff.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestAverage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LengthOfLongestSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindrome1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestSubString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstring1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxProfitProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumOfTwoValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mergesort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParkingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PutZerosToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReflectionEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunAndCall.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Scheduler.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondHighest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializeDeserialize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareOfSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfSuArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Threading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Trellix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParenthesis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParenthesis1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaterContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaterContainer1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.chatgpt.dsa.CountingElements.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bascitest14 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bascitest14 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bascitest14 [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/naveenprasanthramasamy/IdeaProjects/basictest14/pom.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24872579&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.tesco.tesco" />
@@ -142,13 +142,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeEval2">
-    <configuration name="EmpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.cvent.EmpTest" />
+  <component name="RunManager" selected="Application.EmployeeEval">
+    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.graphs.EmployeeEval" />
       <module name="bascitest14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.cvent.*" />
+          <option name="PATTERN" value="org.example.graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeEval2" />
+        <item itemvalue="Application.EmployeeEval" />
+        <item itemvalue="Application.StudentEval" />
         <item itemvalue="Application.ReflectionEval" />
         <item itemvalue="Application.EnumEval" />
-        <item itemvalue="Application.StudentEval" />
-        <item itemvalue="Application.EmpTest" />
+        <item itemvalue="Application.EmployeeEval2" />
       </list>
     </recent_temporary>
   </component>
@@ -226,14 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718420983881</updated>
-    </task>
-    <task id="LOCAL-00013" summary="square of sorted array">
-      <option name="closed" value="true" />
-      <created>1736131885693</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1736131885693</updated>
     </task>
     <task id="LOCAL-00014" summary="arrays challenges">
       <option name="closed" value="true" />
@@ -619,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743040297759</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="custom annotations">
+      <option name="closed" value="true" />
+      <created>1743040786288</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1743040786288</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -634,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="longest palindrome string logic practised" />
     <MESSAGE value="added thread local eval code changes" />
     <MESSAGE value="encode and decode lc problem" />
     <MESSAGE value="stackImplementation with arrays in java" />
@@ -659,7 +658,8 @@
     <MESSAGE value="record examples" />
     <MESSAGE value="enum examples and explanations" />
     <MESSAGE value="reflection concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="reflection concepts" />
+    <MESSAGE value="custom annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
