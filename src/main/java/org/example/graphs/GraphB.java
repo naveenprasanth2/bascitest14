@@ -31,15 +31,16 @@ public class GraphB {
         if (!visited[source]) {
             visited[source] = true;
             Queue<Integer> queue = new LinkedList<>();
-            queue.add(source);
+            queue.offer(source);
+
             while (!queue.isEmpty()) {
                 System.out.println(queue.peek());
                 int top = queue.poll();
-                List<Integer> neighbors = adj.get(top);
-                for (int neighbor : neighbors) {
-                    if(!visited[neighbor]){
-                        visited[neighbor] = true;
-                        queue.offer(neighbor);
+                List<Integer> neighbours = adj.get(top);
+                for (int neighbour : neighbours) {
+                    if (!visited[neighbour]) {
+                        visited[neighbour] = true;
+                        queue.add(neighbour);
                     }
                 }
             }

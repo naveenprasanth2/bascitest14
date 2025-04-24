@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="graphs implementation">
+    <list default="true" id="9a60051d-26c4-427a-ba65-a6d2db3a1f9f" name="Changes" comment="bfs implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/graphs/ApplicationB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/ApplicationB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/graphs/GraphB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/graphs/GraphB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718420983881</updated>
-    </task>
-    <task id="LOCAL-00016" summary="parking lot implementation">
-      <option name="closed" value="true" />
-      <created>1737011404944</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1737011404944</updated>
     </task>
     <task id="LOCAL-00017" summary="parking lot improved changes">
       <option name="closed" value="true" />
@@ -616,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745420858950</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="bfs implementation">
+      <option name="closed" value="true" />
+      <created>1745465130650</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1745465130650</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stackImplementation with arrays in java" />
     <MESSAGE value="findinf factorial using recursion" />
     <MESSAGE value="Mode zeros to end with out using extra space" />
     <MESSAGE value="stack implementation using array" />
@@ -656,7 +654,8 @@
     <MESSAGE value="custom annotations" />
     <MESSAGE value="annotations practise" />
     <MESSAGE value="graphs implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphs implementation" />
+    <MESSAGE value="bfs implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="bfs implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
