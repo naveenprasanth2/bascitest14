@@ -1,24 +1,22 @@
 package org.example.graphs;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class GraphB {
     private final boolean undirected;
     private final List<List<Integer>> adj;
 
-    public GraphB(int n, boolean undirected){
+    public GraphB(int n, boolean undirected) {
         this.undirected = undirected;
         adj = new ArrayList<>();
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             adj.add(new ArrayList<>());
         }
     }
 
-    public void addEdge(int u, int v){
+    public void addEdge(int u, int v) {
         adj.get(u).add(v);
-        if (undirected){
+        if (undirected) {
             adj.get(v).add(u);
         }
     }
@@ -26,6 +24,35 @@ public class GraphB {
     public void printList() {
         for (List<Integer> row : adj) {
             System.out.println(row);
+        }
+    }
+
+    private void bfsCore(int source, boolean[] visited) {
+        if (!visited[source]) {
+            visited[source] = true;
+            Queue<Integer> queue = new LinkedList<>();
+            queue.add(source);
+            while (!queue.isEmpty()) {
+                System.out.println(queue.peek());
+                int top = queue.poll();
+                List<Integer> neighbors = adj.get(top);
+                for (int neighbor : neighbors) {
+                    if(!visited[neighbor]){
+                        visited[neighbor] = true;
+                        queue.offer(neighbor);
+                    }
+                }
+            }
+        }
+    }
+
+    public void bfs() {
+        boolean[] visited = new boolean[adj.size()];
+        Arrays.fill(visited, false);
+        for (int i = 0; i < visited.length; i++) {
+            if (!visited[i]) {
+                bfsCore(i, visited);
+            }
         }
     }
 }

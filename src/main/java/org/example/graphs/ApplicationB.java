@@ -9,6 +9,6 @@ public class ApplicationB {
         graphB.addEdge(2, 3);
         graphB.addEdge(3, 4);
 
-        graphB.printList();
+        graphB.bfs();
     }
 }
