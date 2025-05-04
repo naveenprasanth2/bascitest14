@@ -41,7 +41,7 @@ public class Main {
         int width = originalImage.getWidth();
         int height = originalImage.getHeight();
 
-        for (int i = 0; i < numberOfThreads; i++){
+        for (int i = 0; i < numberOfThreads; i++) {
             final int threadMultiplier = i;
 
             Runnable runnable = () -> {
@@ -52,11 +52,13 @@ public class Main {
             };
             threads.add(runnable);
         }
-        ExecutorService executorService = Executors.newFixedThreadPool(1);
-        for (Runnable runnable : threads){
-            executorService.submit(runnable);
+        try (ExecutorService executorService = Executors.newFixedThreadPool(1)) {
+            for (Runnable runnable : threads) {
+                executorService.submit(runnable);
+            }
+            executorService.shutdown();
         }
-        executorService.shutdown();
+
     }
 
     public static void recolorSingleThreaded(BufferedImage originalImage, BufferedImage resultImage) {
@@ -65,9 +67,9 @@ public class Main {
 
     public static void recolorImage(BufferedImage originalImage, BufferedImage resultImage, int leftCorner, int topCorner,
                                     int width, int height) {
-        for(int x = leftCorner ; x < leftCorner + width && x < originalImage.getWidth() ; x++) {
-            for(int y = topCorner ; y < topCorner + height && y < originalImage.getHeight() ; y++) {
-                recolorPixel(originalImage, resultImage, x , y);
+        for (int x = leftCorner; x < leftCorner + width && x < originalImage.getWidth(); x++) {
+            for (int y = topCorner; y < topCorner + height && y < originalImage.getHeight(); y++) {
+                recolorPixel(originalImage, resultImage, x, y);
             }
         }
     }
@@ -83,7 +85,7 @@ public class Main {
         int newGreen;
         int newBlue;
 
-        if(isShadeOfGray(red, green, blue)) {
+        if (isShadeOfGray(red, green, blue)) {
             newRed = Math.min(255, red + 10);
             newGreen = Math.max(0, green - 80);
             newBlue = Math.max(0, blue - 20);
@@ -101,7 +103,7 @@ public class Main {
     }
 
     public static boolean isShadeOfGray(int red, int green, int blue) {
-        return Math.abs(red - green) < 30 && Math.abs(red - blue) < 30 && Math.abs( green - blue) < 30;
+        return Math.abs(red - green) < 30 && Math.abs(red - blue) < 30 && Math.abs(green - blue) < 30;
     }
 
     public static int createRGBFromColors(int red, int green, int blue) {
