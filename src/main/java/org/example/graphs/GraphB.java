@@ -56,4 +56,12 @@ public class GraphB {
             }
         }
     }
+
+    public void dfsCoreIterative(int source, boolean[] visited){
+        if(!visited[source]){
+            visited[source] = true;
+            Stack<Integer> stack = new Stack<>();
+        }
+    }
+
 }
