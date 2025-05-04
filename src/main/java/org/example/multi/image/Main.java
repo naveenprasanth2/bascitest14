@@ -10,6 +10,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class Main {
     public static final String SOURCE_FILE = "/Users/naveenprasanthramasamy/IdeaProjects/basictest14/src/main/resources/many-flowers.jpg";
     public static final String DESTINATION_FILE = "/Users/naveenprasanthramasamy/IdeaProjects/basictest14/src/main/resources/many-flowers-out.jpg";
@@ -34,28 +37,26 @@ public class Main {
     }
 
     public static void recolorMultithreaded(BufferedImage originalImage, BufferedImage resultImage, int numberOfThreads) throws InterruptedException {
-        List<Thread> threads = new ArrayList<>();
+        List<Runnable> threads = new ArrayList<>();
         int width = originalImage.getWidth();
         int height = originalImage.getHeight();
 
         for (int i = 0; i < numberOfThreads; i++){
             final int threadMultiplier = i;
 
-            Thread thread = new Thread(() -> {
+            Runnable runnable = () -> {
                 int leftCorner = 0;
                 int topCorner = height * threadMultiplier;
 
                 recolorImage(originalImage, resultImage, leftCorner, topCorner, width, height);
-            });
-            threads.add(thread);
+            };
+            threads.add(runnable);
         }
-        for (Thread thread : threads){
-            thread.start();
+        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        for (Runnable runnable : threads){
+            executorService.submit(runnable);
         }
-
-        for (Thread thread : threads){
-            thread.join();
-        }
+        executorService.shutdown();
     }
 
     public static void recolorSingleThreaded(BufferedImage originalImage, BufferedImage resultImage) {
