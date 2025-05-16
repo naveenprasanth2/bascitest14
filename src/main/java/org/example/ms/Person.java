@@ -14,26 +14,25 @@ public class Person {
     public List<Person> sort(List<Person> list, String[] criteria) {
 
         Collections.sort(list, (a, b) -> {
-            for (String fieldName : criteria) {
+            for (String condition : criteria) {
                 try {
-                    Field field = Person.class.getDeclaredField(fieldName);
-                    field.setAccessible(true);
-
+                    Field field = this.getClass().getDeclaredField(condition);
                     Object varA = field.get(a);
                     Object varB = field.get(b);
 
                     if (varA == null && varB == null) continue;
                     if (varA == null) return -1;
                     if (varB == null) return 1;
+
                     int result = ((Comparable) varA).compareTo(varB);
                     if (result != 0) return result;
                 } catch (NoSuchFieldException | IllegalAccessException e) {
                     throw new RuntimeException(e);
                 }
             }
+
             return 0;
         });
-
 
         return list;
     }
