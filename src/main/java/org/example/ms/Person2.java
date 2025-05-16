@@ -17,7 +17,7 @@ public class Person2 {
     }
 
     public static List<Person2> sort(List<Person2> list, String[] criteria) {
-        Collections.sort(list, (a, b) -> {
+        list.sort((a, b) -> {
             for (String condition : criteria) {
                 try {
                     Field field = a.getClass().getDeclaredField(condition);
