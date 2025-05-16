@@ -1,15 +1,14 @@
 package org.example.morgan;
 
 import java.util.*;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class OrderAggregator {
 
-    public static List<AggregationInstruction> aggregateOrders(List<?> messsages) {
+    public static List<AggregationInstruction> aggregateOrders(List<?> messages) {
         Map<String, AggregationInstruction> map = new HashMap<>();
         List<AggregationInstruction> list = new ArrayList<>();
         Map<String, Integer> orderMap = new HashMap<>();
-        for (Object message : messsages) {
+        for (Object message : messages) {
             if (message instanceof Order order) {
                 if (!map.containsKey(order.instrumentId + order.side.toString())) {
                     map.put(order.instrumentId + order.side.toString(), new AggregationInstruction());
