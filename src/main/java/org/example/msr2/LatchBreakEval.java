@@ -5,9 +5,9 @@ public class LatchBreakEval {
         LatchBreak latch = new LatchBreak(3);
         Runnable runnable = () -> {
             try {
-                System.out.println(Thread.currentThread().getName() + " waiting");
+                System.out.println(STR."\{Thread.currentThread().getName()} waiting");
                 latch.await();
-                System.out.println(Thread.currentThread().getName() + " released");
+                System.out.println(STR."\{Thread.currentThread().getName()} released");
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
@@ -19,7 +19,7 @@ public class LatchBreakEval {
             try {
                 Thread.sleep(1000);
                 latch.countDown();
-                System.out.println("Countdown: " + latch.getCount());
+                System.out.println(STR."Countdown: \{latch.getCount()}");
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
