@@ -1,0 +1,43 @@
+# DuckDNS Configuration File
+# Copy this file to /etc/duckdns/duckdns.conf and customize as needed
+
+# DuckDNS domain (without .duckdns.org suffix)
+# Example: If your domain is myserver.duckdns.org, use "myserver"
+DUCKDNS_DOMAIN="your-domain-here"
+
+# DuckDNS authentication token
+# Get this from https://www.duckdns.org/ after logging in
+DUCKDNS_TOKEN="your-token-here"
+
+# Enable IPv4 updates (true/false)
+# Set to true to update IPv4 address (recommended)
+UPDATE_IPV4="true"
+
+# Enable IPv6 updates (true/false)
+# Set to true if you have IPv6 connectivity and want to update IPv6 address
+UPDATE_IPV6="false"
+
+# Log file location
+# Where to store DuckDNS update logs
+LOG_FILE="/var/log/duckdns/duckdns.log"
+
+# Force update on every run (true/false)
+# Set to false to only update when IP changes (recommended for efficiency)
+# Set to true to update every time regardless of IP change
+FORCE_UPDATE="false"
+
+# Advanced Configuration (Optional)
+# Uncomment and modify these settings if needed
+
+# Custom update interval for manual cron jobs (in minutes)
+# This is not used by the systemd timer but can be useful for custom setups
+# UPDATE_INTERVAL="5"
+
+# Maximum number of retries for failed updates
+# MAX_RETRIES="3"
+
+# Timeout for HTTP requests (in seconds)
+# HTTP_TIMEOUT="30"
+
+# Custom user-agent for HTTP requests
+# USER_AGENT="DuckDNS-Updater/1.0"
